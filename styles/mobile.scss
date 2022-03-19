@@ -3,3 +3,25 @@
 .App{
   background-image: linear-gradient($soft-violet, $soft-blue);
 }
+
+.card{
+  background-color: white;
+}
+
+.query-div{
+  display: flex;
+}
+
+.hide{
+  display: none;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

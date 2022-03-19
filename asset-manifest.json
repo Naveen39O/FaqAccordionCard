@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/FaqAccordionCard/static/css/main.e6c13ad2.css",
-    "main.js": "/FaqAccordionCard/static/js/main.3540f33d.js",
+    "main.js": "/FaqAccordionCard/static/js/main.e00ff255.js",
     "static/js/787.7fd5b6d7.chunk.js": "/FaqAccordionCard/static/js/787.7fd5b6d7.chunk.js",
     "index.html": "/FaqAccordionCard/index.html",
     "main.e6c13ad2.css.map": "/FaqAccordionCard/static/css/main.e6c13ad2.css.map",
-    "main.3540f33d.js.map": "/FaqAccordionCard/static/js/main.3540f33d.js.map",
+    "main.e00ff255.js.map": "/FaqAccordionCard/static/js/main.e00ff255.js.map",
     "787.7fd5b6d7.chunk.js.map": "/FaqAccordionCard/static/js/787.7fd5b6d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.3540f33d.js"
+    "static/js/main.e00ff255.js"
   ]
 }
