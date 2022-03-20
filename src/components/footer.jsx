@@ -1,11 +1,12 @@
 import React from 'react';
 
-function footer(props) {
+function Footer(props) {
   return (
-    <div>
-      
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" >Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Naveen39O">Ongole Naveen</a>.
     </div>
   );
 }
 
-export default footer;
+export default Footer;
