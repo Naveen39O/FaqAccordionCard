@@ -52,31 +52,68 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
+Refreshed my memory in selecting DOM elements using class name.
+I got stuck here in applying the style to the respective element.
+Reason for this is I forgot that getElementsByClassName returns all the elements with the mentioned className.
+After debugging using console log I found the issue. Then I passed the index of the respective selected element to style it.
+```js
+    const selectedAnswer = document.getElementsByClassName("answer")[idx];
+    const selectedQuery = document.getElementsByClassName("query")[idx];
+    const selectedArrow = document.getElementsByClassName("arrow-icon")[idx];
 ```
+Dynamically added and removed classes to the elements that were selected using arrow icon.
+With this I was able to hide/show the answer to the Faq that user wanted to know.
+Rotate the arrow icon when clicked.
+```js
+    if(isHidden){
+      selectedAnswer.classList.remove("hide");
+      selectedQuery.classList.add("query-highlight");
+      selectedArrow.classList.add("arrow-icon-invert");
+      setIsHidden(false);
+    } else{
+      selectedAnswer.classList.add("hide");
+      selectedQuery.classList.remove("query-highlight");
+      selectedArrow.classList.remove("arrow-icon-invert");
+      setIsHidden(true);
+    }
+```
+
+Rotate the arrow icon when clicked.
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.arrow-icon-invert{
+  transform: rotate(180deg);
 }
 ```
+
+Set the initial width of the Faq query using flex-basis property.
+```css
+.query{
+  font-size: 13px;
+  flex-basis: 265px;
+}
+```
+
+First time I used linear gradient to generate the background in the challenge.
+```css
+  background-image: linear-gradient($soft-violet, $soft-blue);
+```
+
+Learnt to import svg images
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+import illustrationMobile from "../images/illustration-woman-online-mobile.svg";
+```
+
+I have used react-device-detect package to findout if the screen used is either Mobile or not, so that I can render respective illustration image according to the screen size.
+```js
+import {isMobile} from 'react-device-detect';
+{isMobile?
+  <img className="illus-mobile" src={illustrationMobile} alt=""/>
+  : <img className="illus-desktop" src={IllustrationDesktop} alt=""/>
 }
 ```
 
@@ -95,7 +132,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
