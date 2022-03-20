@@ -1,0 +1,91 @@
+@import "colors.scss";
+
+body{
+  background-image: linear-gradient($soft-violet, $soft-blue);
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+.App{
+  box-sizing: border-box;
+}
+
+//Illustration component related styling
+.illus-mobile{
+  position:absolute;
+  width: 240px;
+  height: 200px;
+  top: 33px;
+  left: 67px;
+}
+
+.pattern-mobile{
+  position:absolute;
+  left: 67px;
+}
+
+//FaqCard component related styling
+.card{
+  background-color: white;
+  border-radius: 25px;
+  margin: 150px auto 100px;
+  padding: 110px 25px 50px;
+  width: 275px;
+}
+
+.faq-heading{
+  color: $very-dark-desaturated-blue;
+  text-align: center;
+  font-size: 2em;
+}
+
+// Faq component related styling
+.query-div{
+  display: flex;
+}
+
+.query{
+  font-size: 13px;
+  flex-basis: 265px;
+  color: $dark-grayish-blue;
+}
+
+.query-highlight{
+  color: $very-dark-desaturated-blue;
+  font-weight: bold;
+}
+
+.arrow-icon{
+  align-self: center;
+  height: min-content;
+}
+
+.arrow-icon-invert{
+  transform: rotate(180deg);
+}
+
+.answer{
+  color: $dark-grayish-blue;
+  font-size: 12px;
+  width: 265px;
+  line-height: 20px;
+  margin-top: 0;
+}
+
+.hide{
+  display: none;
+}
+
+.faq-separator{
+  height: 1px;
+  background-color: $light-grayish-blue;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
