@@ -16,6 +16,11 @@
   display: none;
 }
 
+.faq-separator{
+  height: 1px;
+  background-color: $dark-grayish-blue;
+}
+
 .visually-hidden:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
