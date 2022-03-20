@@ -1,5 +1,5 @@
 import FaqCard from "./FaqCard";
-import Footer from "./footer";
+import Footer from "./Footer";
 import Illustration from "./Illustration";
 
 function App() {
