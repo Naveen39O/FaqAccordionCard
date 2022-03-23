@@ -95,4 +95,50 @@ body {
   color: #3e52a3;
 }
 
+@media (min-width: 1440px) {
+  .illus-desktop {
+    clip-path: inset(0 0 0 70px);
+    position: absolute;
+    top: 276px;
+    left: 190px;
+    z-index: 1;
+  }
+
+  .pattern-desktop {
+    position: absolute;
+    top: -90px;
+    left: -295px;
+    clip-path: inset(290px 0 0px 550px);
+  }
+
+  .illus-box {
+    position: absolute;
+    top: 410px;
+    left: 135px;
+    z-index: 1;
+  }
+
+  .card {
+    box-sizing: border-box;
+    margin: 200px auto;
+    padding: 50px 100px 80px 500px;
+    width: 1000px;
+  }
+
+  .faq-heading {
+    text-align: left;
+  }
+
+  .query {
+    color: #4a4b5e;
+    font-size: 16px;
+    flex-basis: 390px;
+  }
+
+  .answer {
+    font-size: 14px;
+    width: 390px;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
