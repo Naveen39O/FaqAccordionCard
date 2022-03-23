@@ -4,6 +4,7 @@ import illustrationMobile from "../images/illustration-woman-online-mobile.svg";
 import IllustrationDesktop from "../images/illustration-woman-online-desktop.svg";
 import BgPatternMobile from "../images/bg-pattern-mobile.svg";
 import BgPatternDesktop from "../images/bg-pattern-desktop.svg";
+import box from "../images/illustration-box-desktop.svg";
 
 function Illustration(props) {
   return (
@@ -15,6 +16,9 @@ function Illustration(props) {
       {isMobile?
          <img className="pattern-mobile" src={BgPatternMobile} alt=""/>
         :<img className="pattern-desktop" src={BgPatternDesktop} alt=""/>
+      }
+      {isMobile?<></>
+        :<img className="illus-box" src={box} alt=""/>
       }
     </section>
   );
