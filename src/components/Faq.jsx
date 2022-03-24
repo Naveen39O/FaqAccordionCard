@@ -26,8 +26,10 @@ function Faq(props) {
   return (
     <div>
       <div className="query-div">
-        <p className="query">{props.faq}</p>
-        <img className="arrow-icon" onClick={()=> handleClick(faqIndex)} src={arrowDownIcon} alt=""/>
+        <p className="query" onClick={()=>handleClick(faqIndex)}>
+          {props.faq}
+        </p>
+        <img className="arrow-icon" onClick={()=>handleClick(faqIndex)} src={arrowDownIcon} alt=""/>
       </div>
       <p className="answer hide">{props.answer}</p>
       <div className="faq-separator"></div>

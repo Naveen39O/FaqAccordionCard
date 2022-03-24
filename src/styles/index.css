@@ -95,32 +95,36 @@ body {
   color: #3e52a3;
 }
 
+.query:hover {
+  color: #f47c57;
+}
+
 @media (min-width: 1440px) {
   .illus-desktop {
     clip-path: inset(0 0 0 70px);
     position: absolute;
-    top: 276px;
+    top: 226px;
     left: 190px;
     z-index: 1;
   }
 
   .pattern-desktop {
     position: absolute;
-    top: -90px;
+    top: -140px;
     left: -295px;
     clip-path: inset(290px 0 0px 550px);
   }
 
   .illus-box {
     position: absolute;
-    top: 410px;
+    top: 360px;
     left: 135px;
     z-index: 1;
   }
 
   .card {
     box-sizing: border-box;
-    margin: 200px auto;
+    margin: 150px auto;
     padding: 50px 100px 80px 500px;
     width: 1000px;
   }
