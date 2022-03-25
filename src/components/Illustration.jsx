@@ -8,7 +8,7 @@ import box from "../images/illustration-box-desktop.svg";
 
 function Illustration(props) {
   return (
-    <section>
+    <section className="illustration-container">
       {isMobile?
         <img className="illus-mobile" src={illustrationMobile} alt=""/>
         : <img className="illus-desktop" src={IllustrationDesktop} alt=""/>
