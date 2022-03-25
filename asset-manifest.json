@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FaqAccordionCard/static/css/main.8fa68b87.css",
-    "main.js": "/FaqAccordionCard/static/js/main.16574410.js",
+    "main.css": "/FaqAccordionCard/static/css/main.88960fd4.css",
+    "main.js": "/FaqAccordionCard/static/js/main.4f216572.js",
     "static/js/787.7fd5b6d7.chunk.js": "/FaqAccordionCard/static/js/787.7fd5b6d7.chunk.js",
     "static/media/illustration-woman-online-mobile.svg": "/FaqAccordionCard/static/media/illustration-woman-online-mobile.fe928f9c476ef6d332672b3ab38268fd.svg",
     "static/media/illustration-woman-online-desktop.svg": "/FaqAccordionCard/static/media/illustration-woman-online-desktop.843eb114c7213a596ee246bf87f27008.svg",
@@ -10,12 +10,12 @@
     "index.html": "/FaqAccordionCard/index.html",
     "static/media/bg-pattern-mobile.svg": "/FaqAccordionCard/static/media/bg-pattern-mobile.55aee9128a769eedabec262efb8ace48.svg",
     "static/media/icon-arrow-down.svg": "/FaqAccordionCard/static/media/icon-arrow-down.852fa301a0e795e07c5966b1c156025f.svg",
-    "main.8fa68b87.css.map": "/FaqAccordionCard/static/css/main.8fa68b87.css.map",
-    "main.16574410.js.map": "/FaqAccordionCard/static/js/main.16574410.js.map",
+    "main.88960fd4.css.map": "/FaqAccordionCard/static/css/main.88960fd4.css.map",
+    "main.4f216572.js.map": "/FaqAccordionCard/static/js/main.4f216572.js.map",
     "787.7fd5b6d7.chunk.js.map": "/FaqAccordionCard/static/js/787.7fd5b6d7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fa68b87.css",
-    "static/js/main.16574410.js"
+    "static/css/main.88960fd4.css",
+    "static/js/main.4f216572.js"
   ]
 }
